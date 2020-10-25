@@ -6,3 +6,63 @@
   * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
   *
 */
+
+* { box-sizing : border-box }; 
+
+h1 {
+ text-align: center ;
+  font-family: fantasy;
+  margin-left: 20 px;
+  
+}
+
+body {
+  background-color: #787e80;
+  color: #0b010f;
+}
+
+p {
+  font-size:24px;
+}
+.answer-response, .welcome, .see-results {
+margin: 10 PX;
+text-align: center;
+border-radius: 3 px 3px 5 px 5px white;
+border: 2px solid brown;
+background-color: bisque;
+
+
+}
+
+ .quiz-interface, .answer-response, .quiz-results {
+  margin: 20px;
+  padding: 26px;
+  border: 2px solid beige;
+  display: flex;
+  flex-direction: column;
+}
+
+ol li {
+  margin: 8px;
+  font-size: 24px;
+}
+
+input[type='radio'] {transform: scale(1.4)}
+
+
+.quiz-results {
+	text-align: center;
+}
+
+.submit-answer, .restart-quiz {
+	display: block;
+	text-align: center;
+  margin: 0 auto;
+
+}
+
+#beginQuiz {
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
